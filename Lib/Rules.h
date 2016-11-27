@@ -12,5 +12,7 @@ struct Rule{
     Rule();
     Rule(string _rule);
     void Parse(string s);
+    pair< string, vector<string> > detachWord(string _s);
+    void Print();
 };
 #endif
